@@ -1,0 +1,56 @@
+body {
+  width: 100%;
+}
+a {
+  font-family: arial, sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  vertical-align: middle;
+}
+a:hover {
+  text-decoration: underline;
+}
+li {
+  display: inline-block;
+}
+img {
+  width: 400px;
+}
+
+.header {
+  position: absolute;
+  text-align: right;
+  top: 25px;
+  width: 100%;
+}
+.logo {
+  position: relative;
+  top: 60px;
+  text-align: center;
+}
+.input {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  text-align: center;
+}
+.buttons {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+}
+.l-footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+.r-footer {
+  position: absolute;
+  text-align: right;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+}
